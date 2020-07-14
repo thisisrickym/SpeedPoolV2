@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.beigerooster.testapp.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_test"
+        android:orderInCategory="101"
+        android:title="@string/action_test" />
+    <item
+        android:id="@+id/app_bar_switch"
+        android:actionLayout="@android:layout/simple_list_item_checked"
+        android:checkable="true"
+        android:checked="false"
+        android:orderInCategory="102"
+        android:title="@string/action_switch"
+        android:visible="true"
+        app:actionLayout="@android:layout/simple_list_item_1" />
+</menu>
